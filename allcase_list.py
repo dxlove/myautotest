@@ -12,8 +12,8 @@ from test_case import *
 def caselist():
     alltestnames=[
         Assertions.Assertions,
-        sina.Sina,
-        baidu.baidu]
+        baidu.Baidu,
+        sina.Sina]
     print "success read case list!"
 
     return alltestnames

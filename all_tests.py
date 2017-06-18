@@ -1,6 +1,7 @@
 #!-*- coding:utf-8 -*-
 
 #使用相对路劲把test目录添加到path下
+
 import sys
 import unittest
 import HTMLTestRunner
@@ -19,6 +20,7 @@ alltestnames=allcase_list.caselist()
 for db in alltestnames:
     print db
     testunit.addTest(unittest.makeSuite(db))
+
 
 
 #获取现在的时间
